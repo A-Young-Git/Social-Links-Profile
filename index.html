@@ -3,9 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
   <title>Social Links Profile</title>
 </head>
 <body>
-  
+  <main class="profile">
+    <div class="profile__container">
+      <header class="profile__header">
+        <div class="profile__pic-container">
+          <img src="./assets/profile__pic.jpg" width="650px" height="937px" class="profile__pic"/>
+        </div>
+        <div class="profile__name-location">
+          <h1 class="profile__title">Anthony Young</h1>
+          <h2 class="profile__description">Boston, Massachusetts USA</h2>
+        </div>
+        <p class="profile__bio">"Software Application Developer"</p>
+      </header>
+      <section class="profile__links-section">
+        <a href="https://github.com/A-Young-Git" target="_blank" rel="noopener noreferrer" class="profile__links-btn">GitHub</a>
+        <a href="https://www.frontendmentor.io/profile/A-Young-Git" target="_blank" rel="noopener noreferrer" class="profile__links-btn">Frontend Mentor</a>
+        <a href="https://www.linkedin.com/in/anthony-y-9053151b5/" target="_blank" rel="noopener noreferrer" class="profile__links-btn">LinkedIn</a>
+        <a href="#" class="profile__links-btn">Twitter</a>
+        <a href="#" class="profile__links-btn">Instagram</a>
+      </section>
+    </div>
+  </main>
+  <script src="./main.js" type="module"></script>
 </body>
 </html>
