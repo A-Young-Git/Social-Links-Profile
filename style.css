@@ -120,10 +120,12 @@ h6 {
     font-size: 0.875rem;
 }
 
-.profile__links-btn:hover {
+.profile__links-btn-hoverable:hover {
     background-color: #C4F82A;
     color: black;
 }
 
-
+.profile__links-btn-nolinkhover:hover {
+    cursor: not-allowed;
+}
 
