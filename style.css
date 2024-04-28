@@ -24,13 +24,6 @@ svg {
     max-width: 100%;
 }
 
-button {
-    border: none;
-    background: none;
-    color: inherit;
-    cursor: pointer;
-}
-
 h1,
 h2,
 h3,
@@ -48,6 +41,10 @@ h6 {
 }
 
 .profile__container {
+    display: flex;
+    justify-content: flex-start;
+    justify-items: flex-end;
+    flex-direction: column;
     background-color: #1F1F1F;
     border-radius: 12px;
     padding: 2.5em;
@@ -100,7 +97,7 @@ h6 {
 .profile__links-section {
     display: flex;
     flex-direction: column;
-
+    margin-top: auto
 }
 
 .profile__links-section > * + * {
@@ -112,7 +109,7 @@ h6 {
     text-align: center;
     background-color: #333333;
     color: white;
-    padding: 0.5em 1em;
+    padding: 0.8em 1em;
     border-radius: 8px;
     text-decoration: none;
     transition: background-color .3s;
